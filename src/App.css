@@ -1,38 +1,198 @@
-.App {
+.headerSearchbar{
+  background-color: #FFFFFF;
+}
+
+.loginBtn{
+
+  height: 48px;
+  width: 100px;
+  left: 1132px;
+  top: 20px;
+ 
+}  
+
+.loginBtnText{
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.or{
+  font-family: Varela;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #82A9CC;
+}
+
+.saveBtn{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  display: flex;
+  align-items: center;
   text-align: center;
 }
+/* .loginModal{
+  border: none;
+} */
+/* .custom-dialog {width:50%; top:20%} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#basic-nav-dropdown{
+  color: #333333;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+  background: #737E87;
   color: white;
+  font-family: 'Open Sans';
+  font-style: normal;
 }
 
-.App-link {
-  color: #61dafb;
+.copyrighttext{
+  background: #66717A;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 50px;
+  font-family: 'Open Sans';
+  font-style: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contactUs{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FEFEFE;
 }
+
+.paymentUs{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FEFEFE;
+}
+
+.followUs{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FEFEFE;
+}
+
+.phoneMail{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  color: #FEFEFE;
+}
+
+.greeting{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333333;
+}
+
+.text{
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+/*.logo{
+  position: absolute;
+  margin-left: 55px;
+  width: 247px;
+  border-radius: 0px;
+}*/
+
+/* .carousel-control-prev,
+.carousel-control-next{
+  background-color: #C4C4C4;
+  height: 20px;
+} */
+
+/* .carousel-control-prev-icon{
+  background-color: #C4C4C4;
+} */
+
+.LatestDevices, .TrendingDevices, .PopularComparison{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  /* align-items: center; */
+  color: #333333;
+}
+
+ .sliderText1{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center; */
+  color: #333333;
+}
+
+.sliderText2{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  /* font-size: 16px;
+  line-height: 24px;
+  text-align: center; */
+  color: #333333;
+
+}
+
+.sliderText3{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  /* font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center; */
+  color: #6ABDEF;
+} 
